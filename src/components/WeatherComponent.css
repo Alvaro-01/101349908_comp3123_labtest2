@@ -1,0 +1,32 @@
+.weather-container {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+   
+  }
+  
+  .weather-box {
+    width: 300px; /* Adjust as needed */
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #4680CF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+.additional-box {
+  width: 800px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  text-align: left;
+  background-color: #3ED5CB;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.forecast-days {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px; 
+  }
+  
